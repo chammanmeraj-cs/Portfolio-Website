@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // ==========================================
-    // 1. DYNAMIC PROJECTS CATEGORY FILTER
-    // ==========================================
+    
+    //  DYNAMIC PROJECTS CATEGORY FILTER
+
     const filterButtons = document.querySelectorAll('.filter-btn');
     const projectCards = document.querySelectorAll('.project-card');
 
@@ -25,9 +25,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // ==========================================
-    // 2. CONTACT FORM VALIDATION
-    // ==========================================
+    
+    //  CONTACT FORM VALIDATION
+    
     const contactForm = document.getElementById('contact-form');
     const nameInput = document.getElementById('name');
     const emailInput = document.getElementById('email');
